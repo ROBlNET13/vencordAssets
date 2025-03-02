@@ -1,0 +1,32 @@
+/**
+ * @name RounderTextBox
+ * @author ClaytonTDM
+ * @authorId 838197580462293042
+ * @description Makes the input text box rounder.
+ * @license MIT
+ * @version 1.0.0
+*/
+
+.scrollableContainer__74017,
+.button_e6e74f,
+.button__201d5 .lookBlank__201d5 .colorBrand__201d5 .grow__201d5,
+#app-mount
+	> div.appAsidePanelWrapper_a3002d
+	> div.notAppAsidePanel_a3002d
+	> div.app_a3002d
+	> div
+	> div.layers__960e4.layers__160d8
+	> div
+	> div
+	> div
+	> div
+	> div.chat_f75fb0
+	> div.content_f75fb0
+	> main
+	> form
+	> div
+	> div.channelAppLauncher_e6e74f
+	> div
+	> button {
+	border-radius: 22.5px;
+}

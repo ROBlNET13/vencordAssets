@@ -1,0 +1,10 @@
+/**
+ * @name FixDIscordInsanity
+ * @author fafa.dev
+ * @authorId 428188716641812481
+ * @description Allows profiles to be taller
+*/
+
+[class^="userPopoutInner_"] [class^="blockquoteContainer_"] {
+	max-height: 90px;
+}

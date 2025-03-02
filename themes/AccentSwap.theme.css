@@ -1,0 +1,17 @@
+/**
+ * @name AccentSwap
+ * @author DaBluLite
+ * @authorId 582170007505731594
+ * @description A snippet that makes it simple to swap the Accent/Brand color of Discord
+ * @license Apache-2.0
+ * @version main
+ * @source https://github.com/DaBluLite/css-snippets
+*/
+
+@import url("https://dablulite.github.io/css-snippets/AccentSwap/import.css");
+
+:root:root {
+	--accent-h: 136;
+	--accent-s: 56%;
+	--accent-l: 61%;
+}

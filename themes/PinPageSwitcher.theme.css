@@ -1,0 +1,14 @@
+/**
+ * @name PinPageSwitcher
+ * @author Suffocate
+ * @authorId 772601756776923187
+ * @description Pin page switcher to bottom of search results
+*/
+
+[class^="searchResultsWrap_"]
+	[class^="container_"]:has([class^="pageControlContainer_"]) {
+	position: sticky;
+	bottom: 0px;
+	z-index: 999;
+	background: var(--bg-overlay-1, var(--background-secondary));
+}
