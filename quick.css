@@ -18,6 +18,9 @@
 [class*="cozyMessage"]:before {
     background-color: #45f29e;
 }
+.canvas__0efdf waveform_a8e786 {
+    filter: hue-rotate(610deg);
+}
 .result__2dc39[style*="background-color: rgb("] {
     background-color: #6ee7aa !important;
 }
@@ -26,6 +29,9 @@
 }
 .actionButtons_e131a9 button {
     border-radius: 14px;
+}
+.canvas__0efdf {
+    filter: hue-rotate(610deg)
 }
 #app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div > div.sidebar_c48ade > nav > div.scroller__99e7c.thin__99f8c.scrollerBase__99f8c.fade__99f8c > ul > li > div {
     border-radius: 12px;
