@@ -48,3 +48,6 @@ div.flex__7c0ba.horizontal__7c0ba.justifyBetween_abf706.alignStretch_abf706.noWr
 #app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div > div.chat_f75fb0 > div.uploadArea_f75fb0.uploadArea_dbca3c.droppable_dbca3c.uploadModalIn_dbca3c > div > div.inner_dbca3c > div.icons_dbca3c {
         filter: hue-rotate(610deg);
 }
+#app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > nav > ul > div.itemsContainer_ef3116 > div.footer__214dc > div.listItem__650eb > div.listItemWrapper__91816 > div > svg > foreignObject > div > svg {
+    color: #ccf6e1e0
+}
