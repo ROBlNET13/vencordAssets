@@ -1,0 +1,44 @@
+:root, .theme-dark, .theme-light {
+    --background-mentioned: color-mix(in oklab,hsl(var(--blue-300-hsl)/0.1) 100%,hsl(var(--theme-base-color-hsl,0 0% 0%)/0.1) var(--theme-base-color-amount,0%));
+    --background-mentioned-hover: color-mix(in oklab,hsl(var(--blue-300-hsl)/0.08) 100%,hsl(var(--theme-base-color-hsl,0 0% 0%)/0.08) var(--theme-base-color-amount,0%));
+    --background-floating: #072817;
+    --header-secondary: #ccf6e1e0;
+    --channel-icon: #ccf6e1e0;
+    --text-link: #00ffc3;
+    --text-muted: #acd2bfe0;
+    --premium-tier-1-blue:#64d382;
+    --premium-tier-1-purple:#09ba62;
+    --channels-default: #ccf6e1e0;
+    --green-360: #09ba62;
+    --interactive-normal: #ccf6e1e0 !important;
+    --space-4: #ff00ff;
+    --guild-boosting-purple: #64d382;
+    --guild-boosting-blue: #09ba62;
+}
+[class*="cozyMessage"]:before {
+    background-color: #45f29e;
+}
+.result__2dc39[style*="background-color: rgb("] {
+    background-color: #6ee7aa !important;
+}
+.hoverButtonGroup__06ab4 {
+  border-radius: 100%;
+}
+.actionButtons_e131a9 button {
+    border-radius: 14px;
+}
+#app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div > div.sidebar_c48ade > nav > div.scroller__99e7c.thin__99f8c.scrollerBase__99f8c.fade__99f8c > ul > li > div {
+    border-radius: 12px;
+}
+div.flex__7c0ba.horizontal__7c0ba.justifyBetween_abf706.alignStretch_abf706.noWrap_abf706 > a:nth-child(1) > div {
+    filter: hue-rotate(610deg);
+}
+div.flex__7c0ba.horizontal__7c0ba.justifyBetween_abf706.alignStretch_abf706.noWrap_abf706 > a.anchor_edefb8.anchorUnderlineOnHover_edefb8.krispLink_e131a9 {
+    font-weight: bold;
+}
+#oneko {
+    background-image: url("https://github.com/ROBlNET13/vencordAssets/blob/main/greeneko/greenoneko.gif?raw=true") !important;
+}
+#app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div > div.chat_f75fb0 > div.uploadArea_f75fb0.uploadArea_dbca3c.droppable_dbca3c.uploadModalIn_dbca3c > div > div.inner_dbca3c > div.icons_dbca3c {
+        filter: hue-rotate(610deg);
+}
