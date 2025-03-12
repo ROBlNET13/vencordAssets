@@ -14,9 +14,14 @@
     --space-4: #ff00ff;
     --guild-boosting-purple: #64d382;
     --guild-boosting-blue: #09ba62;
+    --custom-notice-background: #64d382 !important;
+    --custom-notice-button-hover: #09ba62 !important;
 }
 [class*="cozyMessage"]:before {
     background-color: #45f29e;
+}
+.image__44df5 {
+    filter: hue-rotate(610deg);
 }
 .canvas__0efdf waveform_a8e786 {
     filter: hue-rotate(610deg);
@@ -33,15 +38,61 @@
 .canvas__0efdf {
     filter: hue-rotate(610deg)
 }
+.art_a55fdc {
+    filter: hue-rotate(610deg)
+}
+.art_c6e099  {
+    filter: hue-rotate(610deg)
+}
+.errorStateIcon_cba592 {
+    filter: hue-rotate(610deg);
+}
+.previewImage_d41d5f {
+    filter: hue-rotate(610deg);
+}
+.icon_f43ba5 {
+    filter: hue-rotate(610deg);
+}
+.cta {
+    font-weight: bold !important; /* just to be safe */
+    color: #00ffc3 !important;
+}
+.notificationBadge_a3e8db {
+    filter: hue-rotate(610deg) brightness(1.75) saturate(1) ;
+}
+.image__33d12 {
+    filter: hue-rotate(610deg);
+}
+.image__45690 {
+    filter: hue-rotate(610deg);
+}
+.icon__0ccae {
+    filter: hue-rotate(610deg)
+}
+.audioMetadata_cf09d8::before {
+    filter: hue-rotate(610deg)
+}
+.anchor_edefb8 {
+    font-weight: bold;
+}
+.emptyStateImage_d4883c {
+    filter: hue-rotate(610deg);
+}
+.icon__41ea0 {
+    filter: hue-rotate(610deg);
+}
+[id^="popout_"] > div > div[aria-label="discord"] > div > div > header {
+    filter: hue-rotate(610deg) brightness(1.75) saturate(0.7);
+}
 #app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div > div.sidebar_c48ade > nav > div.scroller__99e7c.thin__99f8c.scrollerBase__99f8c.fade__99f8c > ul > li > div {
     border-radius: 12px;
 }
 div.flex__7c0ba.horizontal__7c0ba.justifyBetween_abf706.alignStretch_abf706.noWrap_abf706 > a:nth-child(1) > div {
     filter: hue-rotate(610deg);
 }
-div.flex__7c0ba.horizontal__7c0ba.justifyBetween_abf706.alignStretch_abf706.noWrap_abf706 > a.anchor_edefb8.anchorUnderlineOnHover_edefb8.krispLink_e131a9 {
+/*div.flex__7c0ba.horizontal__7c0ba.justifyBetween_abf706.alignStretch_abf706.noWrap_abf706 > a.anchor_edefb8.anchorUnderlineOnHover_edefb8.krispLink_e131a9 {
     font-weight: bold;
-}
+} */
 #oneko {
     background-image: url("https://github.com/ROBlNET13/vencordAssets/blob/main/greeneko/greenoneko.gif?raw=true") !important;
 }
@@ -50,4 +101,8 @@ div.flex__7c0ba.horizontal__7c0ba.justifyBetween_abf706.alignStretch_abf706.noWr
 }
 #app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > nav > ul > div.itemsContainer_ef3116 > div.footer__214dc > div.listItem__650eb > div.listItemWrapper__91816 > div > svg > foreignObject > div > svg {
     color: #ccf6e1e0
+}
+icons
+#app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div:nth-child(4) > div.layer_bc663c > div > div > div > div > div.icons_dbca3c > div > div {
+     filter: hue-rotate(610deg);
 }
