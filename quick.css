@@ -11,12 +11,13 @@
     --channels-default: #ccf6e1e0;
     --green-360: #09ba62;
     --interactive-normal: #ccf6e1e0 !important;
-    --space-4: #ff00ff;
+/*    --space-4: #ff00ff; */
     --guild-boosting-purple: #64d382;
     --guild-boosting-blue: #09ba62;
     --custom-notice-background: #64d382 !important;
     --custom-notice-button-hover: #09ba62 !important;
 }
+
 [class*="cozyMessage"]:before {
     background-color: #45f29e;
 }
@@ -53,6 +54,9 @@
 .icon_f43ba5 {
     filter: hue-rotate(610deg);
 }
+.art__9b8f6 {
+    filter: hue-rotate(610deg);
+}
 .cta {
     font-weight: bold !important; /* just to be safe */
     color: #00ffc3 !important;
@@ -81,6 +85,23 @@
 .icon__41ea0 {
     filter: hue-rotate(610deg);
 }
+
+/* green emojis (uncomment if you want them)
+/*
+.emoji {
+    filter: sepia(5) hue-rotate(400deg) saturate(2);
+}
+.emojiImage__13533 {
+      filter: sepia(5) hue-rotate(400deg) saturate(2);
+}
+.emojiItem_fc7141 {
+    filter: sepia(5) hue-rotate(400deg) saturate(2);
+}
+.spriteColored__04eed {
+    filter: sepia(5) hue-rotate(400deg) saturate(2) !important;
+}
+*/
+
 [id^="popout_"] > div > div[aria-label="discord"] > div > div > header {
     filter: hue-rotate(610deg) brightness(1.75) saturate(0.7);
 }
@@ -105,4 +126,13 @@ div.flex__7c0ba.horizontal__7c0ba.justifyBetween_abf706.alignStretch_abf706.noWr
 icons
 #app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div:nth-child(4) > div.layer_bc663c > div > div > div > div > div.icons_dbca3c > div > div {
      filter: hue-rotate(610deg);
+}
+#app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div:nth-child(5) > div.layer_bc663c > div > div > div > div.content_deee3a > div:nth-child(1) > img {
+    filter: hue-rotate(610deg);
+}
+.childWrapper__6e9f8 {
+    filter: sepia(1) hue-rotate(400deg) saturate(10) !important;
+}
+#app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div.content_c48ade > div.page_c48ade > div > div > div.content_f75fb0 > main > form > div > div > div > div > div.buttons__74017 > button {
+    display: none
 }
