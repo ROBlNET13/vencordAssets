@@ -1,4 +1,8 @@
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
+
 :root, .theme-dark, .theme-light {
+    --accentcolor: 9, 186, 98;
+    --linkcolor: 0, 255, 195;
     --background-mentioned: color-mix(in oklab,hsl(var(--blue-300-hsl)/0.1) 100%,hsl(var(--theme-base-color-hsl,0 0% 0%)/0.1) var(--theme-base-color-amount,0%));
     --background-mentioned-hover: color-mix(in oklab,hsl(var(--blue-300-hsl)/0.08) 100%,hsl(var(--theme-base-color-hsl,0 0% 0%)/0.08) var(--theme-base-color-amount,0%));
     --background-floating: #072817;
@@ -16,6 +20,7 @@
     --guild-boosting-blue: #09ba62;
     --custom-notice-background: #64d382 !important;
     --custom-notice-button-hover: #09ba62 !important;
+    --primary-400: #4a6155 !important;
 }
 
 [class*="cozyMessage"]:before {
@@ -26,6 +31,9 @@
 }
 .canvas__0efdf waveform_a8e786 {
     filter: hue-rotate(610deg);
+}
+.artwork_eb4069 {
+     filter: hue-rotate(610deg);
 }
 .result__2dc39[style*="background-color: rgb("] {
     background-color: #6ee7aa !important;
@@ -116,6 +124,8 @@ div.flex__7c0ba.horizontal__7c0ba.justifyBetween_abf706.alignStretch_abf706.noWr
 } */
 #oneko {
     background-image: url("https://github.com/ROBlNET13/vencordAssets/blob/main/greeneko/greenoneko.gif?raw=true") !important;
+    width: 32px !important;
+     height: px !important;
 }
 #app-mount > div.appAsidePanelWrapper_a3002d > div.notAppAsidePanel_a3002d > div.app_a3002d > div > div.layers__960e4.layers__160d8 > div > div > div > div > div.chat_f75fb0 > div.uploadArea_f75fb0.uploadArea_dbca3c.droppable_dbca3c.uploadModalIn_dbca3c > div > div.inner_dbca3c > div.icons_dbca3c {
         filter: hue-rotate(610deg);
